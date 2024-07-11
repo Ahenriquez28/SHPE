@@ -8,7 +8,6 @@ import ShpeJr from "./Components/Card/HomePage/ShpeJr/ShpeJr";
 import ShpeConvention from "./Components/Card/HomePage/ShpeConvention/ShpeConvention";
 import Resume from "./Components/Card/HomePage/Resume/Resume";
 import Footer from "./Components/Footer/Footer";
-import Routes from "./Components/Routes";
 
 const App = () => {
     const slides = [
@@ -41,9 +40,6 @@ const App = () => {
             </div>
             <div>
                 <Resume />
-            </div>
-            <div>
-                <Routes />
             </div>
             <div>
                 <Footer />
